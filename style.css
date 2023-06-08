@@ -1,0 +1,231 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  nav {
+    background-color: #333;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    flex: 1;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  p {
+    color: #666;
+    text-align: center;
+    font-size: 24px;
+  }
+
+
+
+
+
+  .order {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .order h3 {
+    padding: 20px 0 0;
+    font-size: 24px;
+  }
+  
+  .order img {
+    max-width: 100%;
+    margin: 20px 0;
+  }
+  
+  .price_block {
+    margin-bottom: 20px;
+  }
+  
+  .price_item {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  .price_item .text {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .price_item .value {
+    font-size: 24px;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  form input[type="text"],
+  form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  form .button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  form .button:hover {
+    background-color: #0056b3;
+  }
+  
+  form p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+
+
+
+  .comment-container {
+    display: flex;
+    justify-content: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+  
+  .comment-section {
+    width: 70%; /* Adjust the width as needed */
+  }
+  
+  .comment {
+    background-color: #d1cfe6;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .productPhoto {
+    float: right;
+    margin-left: 20px;
+  }
+  footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer-text {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-link {
+    font-size: 12px;
+  }
+  
+
+    /* Styles for screens larger than 768px */
+    @media screen and (min-width: 769px) {
+      .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .container img {
+        width: 100%;
+        height: auto;
+      }
+
+      .order {
+        padding: 40px;
+      }
+
+      .comment-container {
+        padding: 20px;
+      }
+    }
+
+    /* Styles for screens between 501px and 768px */
+    @media screen and (max-width: 768px) {
+      .container {
+        padding: 10px;
+      }
+
+      .container img {
+        width: 100%;
+        height: auto;
+      }
+
+      .order {
+        padding: 20px;
+      }
+
+      .comment-container {
+        padding: 10px;
+      }
+    }
+
+    /* Styles for screens up to 500px */
+    @media screen and (max-width: 500px) {
+      .container {
+        padding: 10px;
+      }
+
+      .container img {
+        width: 100%;
+        height: auto;
+      }
+
+      .order {
+        padding: 10px;
+      }
+
+      .comment-container {
+        padding: 10px;
+      }
+    }
+  
